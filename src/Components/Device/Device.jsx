@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const Device = ({ device }) => {
   return (
@@ -21,10 +22,10 @@ const Device = ({ device }) => {
         <p className="text-gray-600">Price: {device.price}</p>
        </div>
 
-       <button className="px-4 py-2 font-semibold rounded-2xl border-1 border-pink-500 text-pink-500 hover:border-purple-500 hover:text-purple-500 transition-colors duration-300">
+     <NavLink to="/Details">  <button className="px-4 py-2 font-semibold rounded-2xl border-1 border-pink-500 text-pink-500 hover:border-purple-500 hover:text-purple-500 transition-colors duration-300">
   View Details
 </button>
-
+</NavLink>
        
       </div>
     </div>

@@ -5,7 +5,7 @@ const Home = () => {
   return (
     <div>
    
-      <section className="bg-[#9538E2] px-12 flex items-center justify-center flex-col gap-4 pb-60 rounded-b-2xl overflow-hidden">
+      <section className="bg-[#9538E2] px-12 flex items-center justify-center flex-col -my-4 mx-4 gap-4 pb-60 rounded-b-2xl overflow-hidden">
         <h1 className="text-5xl font-bold text-center text-white">
           Upgrade Your Tech Accessories with <br /> Gadget Heaven Accessories
         </h1>

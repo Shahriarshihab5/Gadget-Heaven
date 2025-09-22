@@ -8,13 +8,15 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from './Components/Home/Home.jsx';
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import Statistics from './Components/Statistics/Statistics.jsx';
+import Details from './Components/Details/Details.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,  
     children: [
-      { path: "/Home", element: <Home></Home> }, 
+     
+      { path: "", element: <Home></Home> }, 
       {
 path:"/Dashboard",
 element:<Dashboard></Dashboard>,
@@ -23,6 +25,10 @@ element:<Dashboard></Dashboard>,
 path:"/Statistics",
 element:<Statistics></Statistics>
       } ,
+      {
+        path:"/Details",
+        element:<Details></Details>
+              } ,
       
     ],
   },
