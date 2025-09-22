@@ -1,0 +1,87 @@
+[
+    {
+      "product_id": "P1001",
+      "product_title": "Wireless Bluetooth Headphones",
+      "product_image": "https://example.com/images/headphones.jpg",
+      "category": "Electronics",
+      "price": 59.99,
+      "description": "High-quality wireless headphones with noise-cancellation and 20 hours battery life.",
+      "Specification": ["Bluetooth 5.0", "Noise-cancelling", "20h battery life", "Built-in microphone", "Over-ear design"],
+      "availability": true,
+      "rating": 4.5,
+      "Otherfield": {"brand": "SoundPro", "color": "Black", "warranty": "1 year"}
+    },
+    {
+      "product_id": "P1002",
+      "product_title": "Smart Fitness Watch",
+      "product_image": "https://example.com/images/fitness-watch.jpg",
+      "category": "Wearables",
+      "price": 79.99,
+      "description": "Track your fitness, heart rate, sleep, and more with this sleek smartwatch.",
+      "Specification": ["Heart rate monitor", "Sleep tracking", "Step counter", "Water-resistant", "Touchscreen"],
+      "availability": true,
+      "rating": 4.2,
+      "Otherfield": {"brand": "FitTime", "color": "Silver", "warranty": "6 months"}
+    },
+    {
+      "product_id": "P1003",
+      "product_title": "Portable Bluetooth Speaker",
+      "product_image": "https://example.com/images/bluetooth-speaker.jpg",
+      "category": "Electronics",
+      "price": 45.5,
+      "description": "Compact speaker with deep bass and 10 hours playtime.",
+      "Specification": ["Bluetooth 5.0", "10h battery", "Water-resistant", "Compact design"],
+      "availability": false,
+      "rating": 4.4,
+      "Otherfield": {"brand": "SoundWave", "color": "Red"}
+    },
+    {
+      "product_id": "P1004",
+      "product_title": "Gaming Mouse",
+      "product_image": "https://example.com/images/gaming-mouse.jpg",
+      "category": "Computer Accessories",
+      "price": 39.99,
+      "description": "Ergonomic RGB gaming mouse with high precision sensor.",
+      "Specification": ["RGB lights", "16000 DPI", "6 programmable buttons", "Ergonomic design"],
+      "availability": true,
+      "rating": 4.6,
+      "Otherfield": {"brand": "GameX", "color": "Black"}
+    },
+    {
+      "product_id": "P1005",
+      "product_title": "4K LED Monitor",
+      "product_image": "https://example.com/images/4k-monitor.jpg",
+      "category": "Computer Accessories",
+      "price": 299.99,
+      "description": "27-inch 4K UHD monitor with HDR10 support and ultra-thin bezel.",
+      "Specification": ["27-inch", "4K UHD", "HDR10", "IPS panel", "60Hz refresh rate"],
+      "availability": true,
+      "rating": 4.7,
+      "Otherfield": {"brand": "ViewMax", "color": "Black"}
+    },
+    {
+      "product_id": "P1006",
+      "product_title": "Electric Kettle",
+      "product_image": "https://example.com/images/electric-kettle.jpg",
+      "category": "Home Appliances",
+      "price": 29.99,
+      "description": "1.7L fast boiling electric kettle with auto shut-off feature.",
+      "Specification": ["1.7L capacity", "Auto shut-off", "Stainless steel", "Fast boiling"],
+      "availability": true,
+      "rating": 4.3,
+      "Otherfield": {"brand": "HomePro", "color": "Silver"}
+    },
+    {
+      "product_id": "P1007",
+      "product_title": "LED Desk Lamp",
+      "product_image": "https://example.com/images/desk-lamp.jpg",
+      "category": "Home & Office",
+      "price": 22.5,
+      "description": "Adjustable LED desk lamp with touch control and multiple brightness levels.",
+      "Specification": ["Adjustable angle", "Touch control", "3 brightness levels", "Energy-efficient"],
+      "availability": true,
+      "rating": 4.1,
+      "Otherfield": {"brand": "BrightLite", "color": "White"}
+    }
+  ]
+  

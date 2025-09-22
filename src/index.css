@@ -1,2 +1,13 @@
 @import "tailwindcss";
 @plugin "daisyui";
+@import "@fontsource/sora/400.css";
+@import "@fontsource/sora/600.css";
+@import "@fontsource/sora/700.css";
+/* index.css */
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Sora', sans-serif;
+    min-height: 100vh;
+  }
+  
