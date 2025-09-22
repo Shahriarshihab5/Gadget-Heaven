@@ -26,8 +26,9 @@ path:"/Statistics",
 element:<Statistics></Statistics>
       } ,
       {
-        path:"/Details",
-        element:<Details></Details>
+        path:"/Details/:product_id",
+        element:<Details></Details>,
+        loader:() =>fetch('/Device.json')
               } ,
       
     ],
