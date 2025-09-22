@@ -1,87 +1,110 @@
 [
-    {
-      "product_id": "P1001",
-      "product_title": "Wireless Bluetooth Headphones",
-      "product_image": "https://example.com/images/headphones.jpg",
-      "category": "Electronics",
-      "price": 59.99,
-      "description": "High-quality wireless headphones with noise-cancellation and 20 hours battery life.",
-      "Specification": ["Bluetooth 5.0", "Noise-cancelling", "20h battery life", "Built-in microphone", "Over-ear design"],
-      "availability": true,
-      "rating": 4.5,
-      "Otherfield": {"brand": "SoundPro", "color": "Black", "warranty": "1 year"}
-    },
-    {
-      "product_id": "P1002",
-      "product_title": "Smart Fitness Watch",
-      "product_image": "https://example.com/images/fitness-watch.jpg",
-      "category": "Wearables",
-      "price": 79.99,
-      "description": "Track your fitness, heart rate, sleep, and more with this sleek smartwatch.",
-      "Specification": ["Heart rate monitor", "Sleep tracking", "Step counter", "Water-resistant", "Touchscreen"],
-      "availability": true,
-      "rating": 4.2,
-      "Otherfield": {"brand": "FitTime", "color": "Silver", "warranty": "6 months"}
-    },
-    {
-      "product_id": "P1003",
-      "product_title": "Portable Bluetooth Speaker",
-      "product_image": "https://example.com/images/bluetooth-speaker.jpg",
-      "category": "Electronics",
-      "price": 45.5,
-      "description": "Compact speaker with deep bass and 10 hours playtime.",
-      "Specification": ["Bluetooth 5.0", "10h battery", "Water-resistant", "Compact design"],
-      "availability": false,
-      "rating": 4.4,
-      "Otherfield": {"brand": "SoundWave", "color": "Red"}
-    },
-    {
-      "product_id": "P1004",
-      "product_title": "Gaming Mouse",
-      "product_image": "https://example.com/images/gaming-mouse.jpg",
-      "category": "Computer Accessories",
-      "price": 39.99,
-      "description": "Ergonomic RGB gaming mouse with high precision sensor.",
-      "Specification": ["RGB lights", "16000 DPI", "6 programmable buttons", "Ergonomic design"],
-      "availability": true,
-      "rating": 4.6,
-      "Otherfield": {"brand": "GameX", "color": "Black"}
-    },
-    {
-      "product_id": "P1005",
-      "product_title": "4K LED Monitor",
-      "product_image": "https://example.com/images/4k-monitor.jpg",
-      "category": "Computer Accessories",
-      "price": 299.99,
-      "description": "27-inch 4K UHD monitor with HDR10 support and ultra-thin bezel.",
-      "Specification": ["27-inch", "4K UHD", "HDR10", "IPS panel", "60Hz refresh rate"],
-      "availability": true,
-      "rating": 4.7,
-      "Otherfield": {"brand": "ViewMax", "color": "Black"}
-    },
-    {
-      "product_id": "P1006",
-      "product_title": "Electric Kettle",
-      "product_image": "https://example.com/images/electric-kettle.jpg",
-      "category": "Home Appliances",
-      "price": 29.99,
-      "description": "1.7L fast boiling electric kettle with auto shut-off feature.",
-      "Specification": ["1.7L capacity", "Auto shut-off", "Stainless steel", "Fast boiling"],
-      "availability": true,
-      "rating": 4.3,
-      "Otherfield": {"brand": "HomePro", "color": "Silver"}
-    },
-    {
-      "product_id": "P1007",
-      "product_title": "LED Desk Lamp",
-      "product_image": "https://example.com/images/desk-lamp.jpg",
-      "category": "Home & Office",
-      "price": 22.5,
-      "description": "Adjustable LED desk lamp with touch control and multiple brightness levels.",
-      "Specification": ["Adjustable angle", "Touch control", "3 brightness levels", "Energy-efficient"],
-      "availability": true,
-      "rating": 4.1,
-      "Otherfield": {"brand": "BrightLite", "color": "White"}
-    }
-  ]
-  
+  {
+    "product_id": "P2001",
+    "product_title": "Apple MacBook Air M2",
+    "product_image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "category": "Laptop",
+    "price": 1199.99,
+    "description": "Powerful and lightweight MacBook Air with Apple M2 chip for smooth performance.",
+    "Specification": ["M2 Chip", "8GB RAM", "256GB SSD", "13.6-inch Retina display", "Battery up to 18h"],
+    "availability": true,
+    "rating": 4.8,
+    "Otherfield": {"brand": "Apple", "color": "Silver", "warranty": "1 year"}
+  },
+  {
+    "product_id": "P2002",
+    "product_title": "Samsung Galaxy S23",
+    "product_image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "category": "Phone",
+    "price": 899.99,
+    "description": "Latest Samsung flagship smartphone with high-resolution camera and AMOLED display.",
+    "Specification": ["8GB RAM", "256GB Storage", "6.1-inch AMOLED", "50MP Camera", "Battery 3900mAh"],
+    "availability": true,
+    "rating": 4.7,
+    "Otherfield": {"brand": "Samsung", "color": "Phantom Black", "warranty": "1 year"}
+  },
+  {
+    "product_id": "P2003",
+    "product_title": "Sony WH Headphones",
+    "product_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "category": "Earbuds / Headphones",
+    "price": 399.99,
+    "description": "Industry-leading noise canceling headphones with exceptional sound quality.",
+    "Specification": ["Wireless", "Noise Cancelling", "30h Battery", "Bluetooth 5.2", "Over-ear"],
+    "availability": true,
+    "rating": 4.9,
+    "Otherfield": {"brand": "Sony", "color": "Black", "warranty": "1 year"}
+  },
+  {
+    "product_id": "P2004",
+    "product_title": "Dell XPS 13 Laptop",
+    "product_image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "category": "Laptop",
+    "price": 1099.99,
+    "description": "Sleek and powerful Dell XPS 13 with Intel Core i7 and ultra-thin design.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "13.4-inch FHD+", "Battery 12h"],
+    "availability": true,
+    "rating": 4.6,
+    "Otherfield": {"brand": "Dell", "color": "Silver", "warranty": "1 year"}
+  },
+  {
+    "product_id": "P2005",
+    "product_title": "Anker PowerCore ",
+    "product_image": "https://gadgetbreeze.com.bd/wp-content/uploads/2023/10/Anker-A1647-Powercore-20000mAh.jpg",
+    "category": "Power Bank",
+    "price": 49.99,
+    "description": "High-capacity portable charger with fast charging support.",
+    "Specification": ["20000mAh", "Dual USB ports", "Fast charging", "Compact design", "LED indicator"],
+    "availability": true,
+    "rating": 4.5,
+    "Otherfield": {"brand": "Anker", "color": "Black", "warranty": "6 months"}
+  },
+  {
+    "product_id": "P2006",
+    "product_title": "Apple AirPods Pro 2",
+    "product_image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "category": "Earbuds",
+    "price": 249.99,
+    "description": "Active Noise Cancelling earbuds with spatial audio and long battery life.",
+    "Specification": ["ANC", "Wireless charging case", "Bluetooth 5.3", "24h battery", "Sweat & water resistant"],
+    "availability": true,
+    "rating": 4.8,
+    "Otherfield": {"brand": "Apple", "color": "White", "warranty": "1 year"}
+  },
+  {
+    "product_id": "P2007",
+    "product_title": "Google Pixel 7",
+    "product_image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "category": "Phone",
+    "price": 699.99,
+    "description": "Google's latest smartphone with pure Android experience and excellent camera.",
+    "Specification": ["8GB RAM", "128GB Storage", "6.3-inch OLED", "50MP Camera", "Battery 4355mAh"],
+    "availability": true,
+    "rating": 4.6,
+    "Otherfield": {"brand": "Google", "color": "Obsidian", "warranty": "1 year"}
+  },
+  {
+    "product_id": "P2008",
+    "product_title": "Samsung Galaxy Buds 2",
+    "product_image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "category": "Earbuds",
+    "price": 149.99,
+    "description": "Compact earbuds with active noise cancellation and long battery life.",
+    "Specification": ["ANC", "Wireless charging", "5h battery", "IPX2 water-resistant", "Bluetooth 5.2"],
+    "availability": true,
+    "rating": 4.4,
+    "Otherfield": {"brand": "Samsung", "color": "White", "warranty": "1 year"}
+  },
+  {
+    "product_id": "P2009",
+    "product_title": "Lenovo ThinkPad X1 Carbon",
+    "product_image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
+    "category": "Laptop",
+    "price": 1299.99,
+    "description": "Business ultrabook with Intel i7, lightweight design, and excellent battery life.",
+    "Specification": ["Intel i7", "16GB RAM", "512GB SSD", "14-inch FHD", "Battery 15h"],
+    "availability": true,
+    "rating": 4.7,
+    "Otherfield": {"brand": "Lenovo", "color": "Black", "warranty": "1 year"}
+  }
+]

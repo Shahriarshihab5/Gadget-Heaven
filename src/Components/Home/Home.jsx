@@ -4,7 +4,7 @@ import Devices from "../Devices/Devices";
 const Home = () => {
   return (
     <div>
-    
+   
       <section className="bg-[#9538E2] px-12 flex items-center justify-center flex-col gap-4 pb-60 rounded-b-2xl overflow-hidden">
         <h1 className="text-5xl font-bold text-center text-white">
           Upgrade Your Tech Accessories with <br /> Gadget Heaven Accessories
@@ -19,6 +19,7 @@ const Home = () => {
         </button>
       </section>
 
+    
       <section className="flex justify-center -mt-48 w-[80%] max-w-[900px] mx-auto relative">
         <div className="relative w-full rounded-3xl overflow-hidden border-[6px] border-white/20 backdrop-blur-sm">
           <img
@@ -28,104 +29,38 @@ const Home = () => {
           />
         </div>
       </section>
-<h1 className="text-3xl text-center mt-24 mb-12 font-bold">Explore Cutting-Edge Gadgets</h1>
-      <section className=" px-32">
-        <div className="heromin-h-screen">
-          <div className="hero-content flex-col lg:flex-row">
-            <div className="grid grid-cols-1 gap-4 bg-white py-6 px-4 rounded-2xl">
-              <button
-                className="
-  rounded-2xl
-  border-0
-  bg-gray-100 text-black
-  hover:bg-[#9538E2] hover:text-white
-  transition-colors duration-300
-  px-4 py-2
-"
-              >
-                All Products
-              </button>
-              <button
-                className="
-  rounded-2xl
-  border-0
-  bg-gray-100 text-black
-  hover:bg-[#9538E2] hover:text-white
-  transition-colors duration-300
-  px-4 py-2
-"
-              >
-                Laptops
-              </button>
-              <button
-                className="
-  rounded-2xl
-  border-0
-  bg-gray-100 text-black
-  hover:bg-[#9538E2] hover:text-white
-  transition-colors duration-300
-  px-4 py-2
-"
-              >
-                Phones
-              </button>
-              <button
-                className="
-  rounded-2xl
-  border-0
-  bg-gray-100 text-black
-  hover:bg-[#9538E2] hover:text-white
-  transition-colors duration-300
-  px-4 py-2
-"
-              >
-                Accessories
-              </button>
-              <button
-                className="
-  rounded-2xl
-  border-0
-  bg-gray-100 text-black
-  hover:bg-[#9538E2] hover:text-white
-  transition-colors duration-300
-  px-4 py-2
-"
-              >
-                Smart Watches
-              </button>
-              <button
-                className="
-  rounded-2xl
-  border-0
-  bg-gray-100 text-black
-  hover:bg-[#9538E2] hover:text-white
-  transition-colors duration-300
-  px-4 py-2
-"
-              >
-                MacBook
-              </button>
-              <button
-                className="
-  rounded-2xl
-  border-0
-  bg-gray-100 text-black
-  hover:bg-[#9538E2] hover:text-white
-  transition-colors duration-300
-  px-4 py-2
-"
-              >
-                Iphone
-              </button>
-            </div>
 
-            {/* //details section */}
-         <div>
+    
+      <h1 className="text-3xl text-center mt-24 mb-12 font-bold">
+        Explore Cutting-Edge Gadgets
+      </h1>
 
-<Devices></Devices>
+    
+      <section className="px-6 mb-12 lg:px-32 ">
+        <div className="grid grid-cols-1 lg:grid-cols-[220px_1fr] gap-8">
+          
+          <div className="grid gap-4 bg-white py-6 px-4 rounded-2xl h-fit">
+            {[
+              "All Products",
+              "Laptops",
+              "Phones",
+              "Accessories",
+              "Smart Watches",
+              "MacBook",
+              "Iphone",
+            ].map((item) => (
+              <button
+                key={item}
+                className="rounded-2xl border-0 bg-gray-100 text-black hover:bg-[#9538E2] hover:text-white transition-colors duration-300 px-4 py-2"
+              >
+                {item}
+              </button>
+            ))}
+          </div>
 
-
-         </div>
+          
+          <div>
+            <Devices />
           </div>
         </div>
       </section>
