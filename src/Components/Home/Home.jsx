@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import Devices from "../Devices/Devices";
-
+import { Helmet } from "react-helmet";
 const Home = () => {
+
+  const [category,setCategory] = useState("All Products");
+
+
   return (
     <div>
-   
+    <Helmet>
+        <title>Home | My Gadget Store</title>
+      </Helmet>
       <section className="bg-[#9538E2] px-12 flex items-center justify-center flex-col -my-4 mx-4 gap-4 pb-60 rounded-b-2xl overflow-hidden">
         <h1 className="text-5xl font-bold text-center text-white">
           Upgrade Your Tech Accessories with <br /> Gadget Heaven Accessories
@@ -51,6 +57,8 @@ const Home = () => {
             ].map((item) => (
               <button
                 key={item}
+onClick={()=>setCategory(item)}
+
                 className="rounded-2xl border-0 bg-gray-100 text-black hover:bg-[#9538E2] hover:text-white transition-colors duration-300 px-4 py-2"
               >
                 {item}
@@ -60,7 +68,7 @@ const Home = () => {
 
           
           <div>
-            <Devices />
+            <Devices category={category}  />
           </div>
         </div>
       </section>

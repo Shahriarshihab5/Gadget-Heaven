@@ -50,6 +50,19 @@ const Navbar = () => {
       >
         Dashboard
       </NavLink>
+
+      <NavLink
+        to="/About"
+        className={({ isActive }) =>
+          isActive
+            ? "border-b-2 border-white pb-1"
+            : "hover:border-b-2 hover:border-gray-400 pb-1"
+        }
+        style={isHome ? { color: "white" } : {}}
+        onClick={() => setIsMenuOpen(false)}
+      >
+        About
+      </NavLink>
     </>
   );
 
@@ -111,10 +124,8 @@ const Navbar = () => {
           </NavLink>
         </div>
 
-        {/* Desktop Links */}
         <div className="hidden lg:flex gap-8">{links}</div>
 
-        {/* Right icons */}
         <div className="flex gap-4">
           <FontAwesomeIcon
             icon={faCartShopping}

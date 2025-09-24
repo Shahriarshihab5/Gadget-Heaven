@@ -9,11 +9,14 @@ import Home from './Components/Home/Home.jsx';
 import Dashboard from './Components/Dashboard/Dashboard.jsx';
 import Statistics from './Components/Statistics/Statistics.jsx';
 import Details from './Components/Details/Details.jsx';
+import ErrorPage from './Components/ErrorPage/ErrorPage.jsx';
+import About from './Components/About/About.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App />,  
+    errorElement:<ErrorPage></ErrorPage>,
     children: [
      
       { path: "", element: <Home></Home> }, 
@@ -26,6 +29,10 @@ loader: () => fetch("/Device.json").then(res => res.json()),
 path:"/Statistics",
 element:<Statistics></Statistics>
       } ,
+      {
+        path:"/about",
+        element:<About></About>
+              } ,
       {
         path:"/Details/:product_id",
         element:<Details></Details>,

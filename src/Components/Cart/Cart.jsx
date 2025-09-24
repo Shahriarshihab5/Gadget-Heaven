@@ -6,8 +6,7 @@ const Cart = ({ device, removeFromCart }) => {
 
   return (
     <div className="flex items-center justify-between w-full border rounded-xl p-4 mb-4 shadow-md bg-white">
-      {/* Column 1: Product Image */}
-      <div className="w-1/6">
+        <div className="w-1/6">
         <img
           src={product_image}
           alt={product_title}
@@ -15,7 +14,7 @@ const Cart = ({ device, removeFromCart }) => {
         />
       </div>
 
-      {/* Column 2: Product Details */}
+     
       <div className="w-3/5 px-4">
         <h2 className="text-xl font-bold mb-2">{product_title}</h2>
         <ul className="list-disc list-inside text-gray-600 mb-2">
@@ -26,7 +25,7 @@ const Cart = ({ device, removeFromCart }) => {
         <p className="text-purple-700 font-semibold">Price: ${price}</p>
       </div>
 
-      {/* Column 3: Remove Button */}
+ 
       <div className="w-1/6 flex justify-end">
         <button
           onClick={() => removeFromCart(product_id)}
