@@ -20,6 +20,7 @@ const router = createBrowserRouter([
       {
 path:"/Dashboard",
 element:<Dashboard></Dashboard>,
+loader: () => fetch("/Device.json").then(res => res.json()),
       } , 
       {
 path:"/Statistics",

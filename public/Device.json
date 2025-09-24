@@ -1,6 +1,6 @@
 [
   {
-    "product_id": "P2001",
+    "product_id": "2001",
     "product_title": "Apple MacBook Air M2",
     "product_image": "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     "category": "Laptop",
@@ -12,7 +12,7 @@
     "Otherfield": {"brand": "Apple", "color": "Silver", "warranty": "1 year"}
   },
   {
-    "product_id": "P2002",
+    "product_id": "2002",
     "product_title": "Samsung Galaxy S23",
     "product_image": "https://images.unsplash.com/photo-1610945265064-0e34e5519bbf?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     "category": "Phone",
@@ -24,7 +24,7 @@
     "Otherfield": {"brand": "Samsung", "color": "Phantom Black", "warranty": "1 year"}
   },
   {
-    "product_id": "P2003",
+    "product_id": "2003",
     "product_title": "Sony WH Headphones",
     "product_image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     "category": "Earbuds / Headphones",
@@ -36,7 +36,7 @@
     "Otherfield": {"brand": "Sony", "color": "Black", "warranty": "1 year"}
   },
   {
-    "product_id": "P2004",
+    "product_id": "2004",
     "product_title": "Dell XPS 13 Laptop",
     "product_image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     "category": "Laptop",
@@ -48,7 +48,7 @@
     "Otherfield": {"brand": "Dell", "color": "Silver", "warranty": "1 year"}
   },
   {
-    "product_id": "P2005",
+    "product_id": "2005",
     "product_title": "Anker PowerCore ",
     "product_image": "https://gadgetbreeze.com.bd/wp-content/uploads/2023/10/Anker-A1647-Powercore-20000mAh.jpg",
     "category": "Power Bank",
@@ -60,7 +60,7 @@
     "Otherfield": {"brand": "Anker", "color": "Black", "warranty": "6 months"}
   },
   {
-    "product_id": "P2006",
+    "product_id": "2006",
     "product_title": "Apple AirPods Pro 2",
     "product_image": "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     "category": "Earbuds",
@@ -72,7 +72,7 @@
     "Otherfield": {"brand": "Apple", "color": "White", "warranty": "1 year"}
   },
   {
-    "product_id": "P2007",
+    "product_id": "2007",
     "product_title": "Google Pixel 7",
     "product_image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     "category": "Phone",
@@ -84,7 +84,7 @@
     "Otherfield": {"brand": "Google", "color": "Obsidian", "warranty": "1 year"}
   },
   {
-    "product_id": "P2008",
+    "product_id": "2008",
     "product_title": "Samsung Galaxy Buds 2",
     "product_image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     "category": "Earbuds",
@@ -96,7 +96,7 @@
     "Otherfield": {"brand": "Samsung", "color": "White", "warranty": "1 year"}
   },
   {
-    "product_id": "P2009",
+    "product_id": "2009",
     "product_title": "Lenovo ThinkPad X1 Carbon",
     "product_image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=800&q=80",
     "category": "Laptop",
