@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Devices from "../Devices/Devices";
 import { Helmet } from "react-helmet";
+import banner from "../../../assets/banner.jpg";
 const Home = () => {
 
   const [category,setCategory] = useState("All Products");
@@ -30,7 +31,7 @@ const Home = () => {
         <div className="relative w-full rounded-3xl overflow-hidden border-[6px] border-white/20 backdrop-blur-sm">
           <img
             className="w-full object-cover rounded-3xl"
-            src="/assets/banner.jpg"
+            src={banner}
             alt="Banner"
           />
         </div>

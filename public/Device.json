@@ -13,7 +13,7 @@
   {
     "product_id": "2002",
     "product_title": "Apple MacBook Pro M1",
-    "product_image": "https://images.unsplash.com/photo-1612831455549-d0e171f1d2d8?auto=format&fit=crop&w=800&q=80",
+    "product_image": "https://media.wired.com/photos/5bd883dc5b66a763e54f0b22/master/w_960,c_limit/macbookair3.jpg",
     "category": "MacBook",
     "price": 1499.99,
     "description": "Powerful MacBook Pro with Apple M1 chip and Retina display.",
@@ -24,7 +24,7 @@
   {
     "product_id": "2003",
     "product_title": "Apple MacBook Air M1",
-    "product_image": "https://images.unsplash.com/photo-1587825140708-8a199b53f2a2?auto=format&fit=crop&w=800&q=80",
+    "product_image": "https://photos5.appleinsider.com/gallery/56811-115574-49298-96697-MacBook-Air-Closed-on-Desk-xl-xl.jpg",
     "category": "MacBook",
     "price": 999.99,
     "description": "Lightweight MacBook Air with Apple M1 chip for everyday tasks.",
@@ -35,7 +35,7 @@
   {
     "product_id": "2004",
     "product_title": "Apple MacBook Pro M2",
-    "product_image": "https://images.unsplash.com/photo-1582719478186-8bfb7e2bde96?auto=format&fit=crop&w=800&q=80",
+    "product_image": "https://www.filme.fr/cdn/shop/products/location-apple-macbook-pro-16-intel-a-paris-et-montreuil-chez-filme.jpg?v=1705010904&width=990",
     "category": "MacBook",
     "price": 1699.99,
     "description": "High-performance MacBook Pro with Apple M2 chip for professionals.",
@@ -46,7 +46,7 @@
   {
     "product_id": "2005",
     "product_title": "Apple MacBook Air M2 Gray",
-    "product_image": "https://images.unsplash.com/photo-1593642634367-d91a135587b5?auto=format&fit=crop&w=800&q=80",
+    "product_image": "https://cdnpro.eraspace.com/media/mageplaza/blog/post/m/a/macbook_pro_m4_pro_primary.jpg",
     "category": "MacBook",
     "price": 1249.99,
     "description": "Stylish MacBook Air with M2 chip and long battery life.",
@@ -57,7 +57,7 @@
   {
     "product_id": "2006",
     "product_title": "Apple MacBook Pro M1 Silver",
-    "product_image": "https://images.unsplash.com/photo-1612831455549-d0e171f1d2d8?auto=format&fit=crop&w=800&q=80",
+    "product_image": "https://www.cnet.com/a/img/resize/73065df9bafbfecaa97305b6ee91f92f67267b05/hub/2022/06/06/c720403b-ca1b-4b03-95f0-2042eebc74ac/img-0413.jpg?auto=webp&fit=crop&height=236&width=420",
     "category": "MacBook",
     "price": 1599.99,
     "description": "Powerful MacBook Pro with M1 chip for creative professionals.",
